@@ -9,3 +9,44 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 110%;
 }
+.card{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 82, 82, 0.4);
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 60%;
+}
+.search button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(83, 82, 82, 0.4);
+    margin: 5px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+.search button:hover{
+    background-color: rgba(175, 174, 174, 0.4);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.temp{
+    margin: 0;
+}
