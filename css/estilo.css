@@ -1,11 +1,10 @@
 body{
-    color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(/css/backgroundbsas.png);
+    background-image: url(/backgroundbsas.png);
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-size: 110%;
